@@ -74,7 +74,7 @@ query GetNode($id: ID) {
 ```
 Variables:
 ```json
-{ "id": "6296be3470a0c1052f89cccb" }
+{ "id": "6297164810f52524ba1a9300" }
 ```
 You can also use the `compositeId` as `nodeId`.
 
