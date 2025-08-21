@@ -12,7 +12,7 @@ const Trigger = {
 };
 
 const Response = {
-  // pass-through; platforms resolved in ResponsePlatform if we need transformation
+  // pass-through; 
 };
 
 const ResponsePlatform = {

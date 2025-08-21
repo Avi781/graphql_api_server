@@ -21,9 +21,9 @@ export function authenticate(authorization) {
     };
   } catch (err) {
     if (err.name === 'TokenExpiredError') {
-      console.error("❌ Token expired at:", err.expiredAt);
+      console.error("Token expired at:", err.expiredAt);
     } else {
-      console.error("❌ Token invalid:", err.message);
+      console.error("Token invalid:", err.message);
     }
     return null;
   }

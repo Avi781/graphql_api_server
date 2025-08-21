@@ -26,7 +26,7 @@ app.use(
   bodyParser.json(),
   expressMiddleware(server, {
     context: async ({ req }) => {
-      const authHeader = req.headers['auth_token'] || '';
+      const authHeader = req.headers['authorization'];
       const user = authenticate(authHeader);
       return { user };
     },
